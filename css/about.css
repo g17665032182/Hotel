@@ -1,0 +1,180 @@
+nav ul>li:nth-of-type(2) a{
+	color:indianred;
+}
+.footer>ul li:nth-of-type(2)>a{
+	color:indianred;
+}
+.content{
+	width:1200px;
+	margin:30px auto;
+}
+.content>.top{
+	width:1200px;
+	margin:20px auto;
+	text-align: center;
+}
+.content>.top>h4{
+	width:220px;
+	margin:20px auto;
+	font-size: 20px;
+	font-weight:200;
+}
+.content>.top>p{
+	font-size: 14px;
+	margin:20px auto;
+}
+.content>.top>p:nth-of-type(1){
+	width:1000px;
+	margin:20px auto;
+}
+.content>.top>p:nth-of-type(2){
+	width:1080px;
+	margin:0 auto;
+}
+.content>.top>p:nth-of-type(4){
+	margin-top:50px;
+	width:800px;
+	height:50px;
+	font-size: 10px;
+	color:#999;
+	position: relative;
+}
+.content>.top>p:nth-of-type(4):after{
+	content: '——上海的宋小姐旅行留言';
+	display: block;
+	position: absolute;
+	bottom:0;
+	right:0;
+}
+.content>.imgs{
+	width:780px;
+	height:421px;
+	margin:auto;
+}
+.content>.imgs>span{
+	float:left;
+	margin:1px;
+	transition: 1s;
+	overflow: hidden;
+}
+.content>.imgs>span:nth-of-type(1){
+	display: inline-block;
+	width:337px;
+	margin-top:50px;
+}
+.content>.imgs>span>span{
+	display: block;
+	float:right;
+	overflow: hidden;
+	transition: 1s;
+}
+.content>.imgs>span:nth-of-type(1)>span:nth-of-type(1){
+	display: block;
+	width:214px;
+	overflow: hidden;
+}
+.content>.imgs>span:nth-of-type(1)>span:nth-of-type(2){
+	display: block;
+	width:337px;
+	overflow: hidden;
+}
+.content>.imgs>span:nth-of-type(2)>img{
+	width:421px;
+}
+.content>.imgs>span img{
+	transition: 1s;
+}
+.content>.imgs>span img:hover {
+	transform: scale(1.5);
+}
+.content>.abottom{
+	width:100%;
+	height:500px;
+	background-image: url(../images/banner4.jpg);
+	background-size: cover;
+	margin-top:100px;
+}
+.content>.abottom>p{
+	text-align: center;
+	color:#fff;
+	font-size: 24px;
+	line-height: 200px;
+}
+.content>.abottom>ul{
+	width:1000px;
+	margin:10px auto;
+}
+.content>.abottom>ul>li{
+	width:290px;
+	height:220px;
+	float:left;
+	text-align: center;
+	margin:0 21px;
+	-background: #fff;
+	position: relative;
+	padding-top:40px;
+}
+.content>.abottom>ul>li>span{
+	display: block;
+	width:75px;
+	height:75px;
+	border-radius: 50%;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left:-35px;
+
+}
+.content>.abottom>ul>li:nth-of-type(1)>span{
+	
+	background: darkred url(../images/star.png) no-repeat 50% 50%;
+}
+.content>.abottom>ul>li:nth-of-type(2)>span{
+	
+	background: darkred url(../images/earth.png) no-repeat 50% 50%;
+}
+.content>.abottom>ul>li:nth-of-type(3)>span{
+	
+	background: darkred url(../images/up.png) no-repeat 50% 50%;
+}
+.content>.abottom>ul>li>div{
+	width:290px;
+	height:182px;
+	background-color: #fff;
+}
+.content>.abottom>ul>li>div>h4{
+	padding-top:60px;
+}
+.content>.abottom>ul>li>div>p{
+	width:250px;
+	font-size: 14px;
+	margin:10px auto;
+	color:#ccc;
+}
+.content>.book{
+	width:500px;
+	margin:50px auto;
+	text-align: center;
+}
+.content>.book>h4{
+	color:indianred;
+	font-size: 20px;
+}
+.content>.book>p{
+	color:#ccc;
+	font-size: 14px;
+}
+.content>.book>a>button{
+	width:200px;
+	height:50px;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	background: #fff;
+	border:1px solid indianred;
+	color:indianred;
+	margin:30px auto;
+	border-radius: 25px;
+	outline: none;
+	cursor: pointer;
+}

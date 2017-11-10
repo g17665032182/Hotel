@@ -1,0 +1,76 @@
+nav ul>li:nth-of-type(3) a{
+	color:indianred;
+}
+.footer>ul li:nth-of-type(3)>a{
+	color:indianred;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.content{
+	width:1200px;
+	margin:30px auto;
+}
+.content>.cNav{
+	width:800px;
+	margin:50px auto;
+}
+.content>.cNav>ul{
+	height:50px;
+}
+.content>.cNav>ul li{
+	float:left;
+	width:135px;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	color:#000;
+	margin-left:25px;
+	cursor: pointer;
+	
+}
+.content>.cNav>ul li:hover{
+	background: indianred;
+	color:#fff;
+}
+.content>.cNav>ul .libg{
+	background: indianred;
+	color:#fff;
+}
+.content>.rPics{
+	width:1200px;
+	height:712px;
+	overflow: hidden;
+	margin:20px auto;
+	position: relative;
+}
+.content>.rPics>ul{
+	width:1200px;
+	position: absolute;
+	top:0;
+	left:0;
+	-border:1px solid red;
+	
+}
+
+.content>.rPics>ul>li{
+	width:356px;
+	height:356px;
+	float:left;
+	position: relative;
+	margin:0px 22px;
+	overflow: hidden;
+}
+.content>.rPics>ul>li>div{
+	width:356px;
+	height:260px;
+}
+.content>.rPics>ul>li>div>img{
+	width:356px;
+	height:260px;
+}
+.content>.rPics>ul>li>p{
+	text-align: center;
+	line-height: 80px;
+}

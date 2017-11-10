@@ -1,0 +1,89 @@
+nav ul>li:nth-of-type(4) a{
+	color:indianred;
+}
+.footer>ul li:nth-of-type(4)>a{
+	color:indianred;
+}
+.content{
+	width:1200px;
+	margin:30px auto;
+	
+}
+.content>.clearfix{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content>ul{
+	width:500px;
+	margin:10px auto;
+}
+.content>ul>li{
+	float: left;
+	width:100px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.content>ul>.bg{
+	background: indianred;
+	color:#fff;
+}
+.content>#middle{
+	height:580px;
+	overflow: hidden;
+	margin:30px 0;
+	position: relative;
+}
+.content>#middle>ul{
+	position: absolute;
+	left:0;
+	top:0;
+}
+.content>#middle>ul>.clearfix{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content>#middle>ul>li>.left{
+	width:400px;
+	float: left;
+	-transform: translateX(-200px);
+}
+
+.content>#middle>ul>li>.left>img{
+	width:400px;
+	height:265px;
+	display: block;
+	margin:5px;
+	transition:1s;
+}
+.content>#middle>ul>li>.right{
+	width:750px;
+	margin-left:50px;
+	float: left;
+}
+.content>#middle>ul>li>.right>ol>li{
+	height:95px;
+	margin-top:20px;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	text-overflow: ellipsis; /*超出部分显示为...*/
+	/*white-space: nowrap;文本不进行换行*/
+	
+}
+.content>#middle>ul>li>.right>ol>li>a{
+	color:#000;
+}
+.content>#middle>ul>li>.right>ol>li>a:hover{
+	color:indianred;
+}
+.content>#middle>ul>li>.right>ol>li>time{
+	font-size: 12px;
+	color:#ccc;
+}
+.content>#middle>ul>li>.right>ol>li>p{
+	font-size: 14px;
+}

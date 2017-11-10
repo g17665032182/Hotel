@@ -1,0 +1,58 @@
+
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+#hlogo{
+	margin:20px auto;
+}
+#hh2{
+	font-size:24px;
+	
+}
+#hhp{
+	width:225px;
+	height:25px;
+	line-height: 25px;
+	border-top:1px solid #ccc ;
+	border-bottom:1px solid #ccc ;
+	color:#ccc;
+	font-size: 14px;
+	margin:5px auto;
+}	
+#navul>li{
+	width:100px;
+	height:30px;
+	float:left;
+	text-align: center;
+	line-height: 30px;
+	margin:0 30px;
+	cursor: pointer;
+}
+#navul>li>a{
+	color:#000;
+}
+#navul>li:nth-of-type(5) a{
+	color:indianred;
+}
+#navul>li:hover a{
+	color:indianred;
+	
+}
+#contentbd>ul{
+	margin-top:30px;
+}
+#footnav li a{
+	color:#fff;
+}
+#footnav li:nth-of-type(5) a{
+	color:indianred;
+}
+#footnav li:hover a{
+	color:indianred; 
+}
+#footer{
+	color:#fff;
+	height:350px;
+}
